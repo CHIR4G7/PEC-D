@@ -1,4 +1,5 @@
 const passport = require('passport');
+const User = require('../models/user');
 
 const googleStartegy = require("passport-google-oauth2").Strategy;
 
@@ -18,6 +19,19 @@ passport.use(new googleStartegy({
 },
 function(req,accessToken,refreshToken,profile,done){
     console.log(profile);
+    try{
+        console.log(profile.displayName,profile.email);
+        const user = User.create({
+            user_name: profile.displayName,
+            email : profile.email
+        })
+        console.log("User has been created Successfully !!");
+    }catch(err){
+        if(err){
+            console.log("error in creating user : ",err);
+        }
+    }
+    
     return done(null,profile);
 }
 ))
