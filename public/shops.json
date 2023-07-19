@@ -1,0 +1,35 @@
+{
+    "shops" :
+    [
+        {
+            "id" : 1,
+            "sname" : "DeshRaj Sweets",
+            "image" : "public/images/product-1.jpeg"
+        },
+        {
+            "id" : 2,
+            "sname" : "Anna",
+            "image" : "public/images/product-1.jpeg"
+        },
+        {
+            "id" : 3,
+            "sname" : "Combo",
+            "image" : "public/images/product-1.jpeg"
+        },
+        {
+            "id" : 4,
+            "sname" : "Forks and Knives",
+            "image" : "public/images/product-1.jpeg"
+        },
+        {
+            "id" : 5,
+            "sname" : "Pandit",
+            "image" : "public/images/product-1.jpeg"
+        },
+        {
+            "id" : 6,
+            "sname" : "Yankess",
+            "image" : "public/images/product-1.jpeg"
+        }
+    ]
+}

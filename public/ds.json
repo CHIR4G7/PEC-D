@@ -1,0 +1,25 @@
+{
+    "menu" :
+    [
+        {
+            "id" : 1,
+            "sname" : "samosa",
+            "image" : "public/images/product-1.jpeg"
+        },
+        {
+            "id" : 2,
+            "sname" : "nimbu dew",
+            "image" : "public/images/product-1.jpeg"
+        },
+        {
+            "id" : 3,
+            "sname" : "aloo parantha",
+            "image" : "public/images/product-1.jpeg"
+        },
+        {
+            "id" : 4,
+            "sname" : "patty",
+            "image" : "public/images/product-1.jpeg"
+        }
+    ]
+}

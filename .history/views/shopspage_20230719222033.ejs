@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-center">
+            <span class="nav-icon">
+                <i class="fa fa-bars"></i>
+            </span>
+            <!-- <img src="/images/logo.svg" alt="logo" class="sr"> -->
+            <h3 class="logo-name">PEC-D</h3>
+            <div class="cart-btn">
+                <% if(locals.user_name){ %>
+                    <span class="nav-icon">
+                        <%= user_name %>
+                    </span>
+                    <span>
+                        <button class="log"><a href="/logout">LogOut</a></button>
+                    </span>
+                    <span class="nav-icon">
+                        <i class="fa fa-cart-plus"></i>
+                    </span>
+                    <div class="cart-items">0</div>
+                 <% }else{ %>
+                    <span class="nav-icon">
+                        <button class="log"><a href="/auth">Login</a></button>
+                    </span>
+                  <% } %>
+            </div>
+        </div>
+    </nav>
+    <div class="products">
+        <div class="section-title">
+           <h2>OUR PRODUCTS</h2>
+       </div>
+       
+</body>
+</html>

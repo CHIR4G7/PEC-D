@@ -1,0 +1,29 @@
+{
+    "shops" :
+    [
+        {
+            "id" : 1,
+            "sname" : "DeshRaj Sweets"
+        },
+        {
+            "id" : 2,
+            "sname" : "Anna"
+        },
+        {
+            "id" : 3,
+            "sname" : "Combo"
+        },
+        {
+            "id" : 4,
+            "sname" : "Forks and Knives"
+        },
+        {
+            "id" : 5,
+            "sname" : "Pandit"
+        },
+        {
+            "id" : 6,
+            "sname" : "Yankess"
+        }
+    ]
+}

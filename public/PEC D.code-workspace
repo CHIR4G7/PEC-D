@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../SHOPPING-WEBSITE-HTML-CSS-JS-main"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "SHOPPING-WEBSITE-HTML-CSS-JS-main"
+	}
+}
